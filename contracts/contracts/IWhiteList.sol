@@ -2,5 +2,5 @@
 pragma solidity ^0.8.4;
 
 interface IWhiteList {
-    function isWhiteListed(address) external view returns (bool);
+    function whitelistedAddresses(address) external view returns (bool);
 }
